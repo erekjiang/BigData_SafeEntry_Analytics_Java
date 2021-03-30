@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d94d1cb-a118-40b4-b323-63bd364590d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qA5qI27uVxHwdk2FsdezJNCQnW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestKafkaStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.nus.iss.bd.TestKafkaStream" />
+      <module name="BigData_Kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nus.iss.bd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestKafkaStream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d94d1cb-a118-40b4-b323-63bd364590d8" name="Default Changelist" comment="" />
+      <created>1616509742260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616509742260</updated>
+      <workItem from="1616509747702" duration="5484000" />
+      <workItem from="1616817572049" duration="1563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="176" key="#Project_Structure" timestamp="1616510935483">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="440" y="176" key="#Project_Structure/0.23.1680.980@0.23.1680.980" timestamp="1616510935483" />
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616511082968">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.980@0.23.1680.980" timestamp="1616511082968" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom" timestamp="1616817840155">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1616817840155" />
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1616586564987" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1616590184049" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center" timestamp="1616817840152">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1616817840152" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1616590184048" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left" timestamp="1616817840151">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1616817840151" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1616590184047" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right" timestamp="1616817840153">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1616817840153" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1616590184049" />
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom" timestamp="1616666798608">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1616666798608" />
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.980@0.23.1680.980" timestamp="1616586564743" />
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1616590183815" />
+    <state width="1638" height="392" key="GridCell.Tab.1.center" timestamp="1616666798606">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1616666798606" />
+    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.980@0.23.1680.980" timestamp="1616586564742" />
+    <state width="1638" height="392" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1616590183814" />
+    <state width="1638" height="392" key="GridCell.Tab.1.left" timestamp="1616666798605">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1616666798605" />
+    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.980@0.23.1680.980" timestamp="1616586564741" />
+    <state width="1638" height="392" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1616590183814" />
+    <state width="1638" height="392" key="GridCell.Tab.1.right" timestamp="1616666798607">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1616666798607" />
+    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.980@0.23.1680.980" timestamp="1616586564742" />
+    <state width="1638" height="392" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1616590183815" />
+    <state x="341" y="148" key="SettingsEditor" timestamp="1616511024618">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.980@0.23.1680.980" timestamp="1616511024618" />
+    <state x="494" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616817571730">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="494" y="344" key="com.intellij.ide.util.TipDialog/0.23.1680.976@0.23.1680.976" timestamp="1616817571730" />
+    <state x="495" y="273" width="689" height="472" key="find.popup" timestamp="1616509911091">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="495" y="273" width="689" height="472" key="find.popup/0.23.1680.980@0.23.1680.980" timestamp="1616509911091" />
+  </component>
+</project>
