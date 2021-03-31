@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d94d1cb-a118-40b4-b323-63bd364590d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_api/src/main/java/com/sg/gov/coviddata/controllers/CaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_api/src/main/java/com/sg/gov/coviddata/dto/CaseRecordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_api/src/main/java/com/sg/gov/coviddata/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/config/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/dto/CaseRecordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/producer/KafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/service/CovidCaseApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../coviddata_producer/src/main/java/com/nus/iss/bd/coviddataproducer/service/CovidCaseProducerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nus/iss/bd/TestKafkaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nus/iss/bd/TestKafkaStream.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qA5qI27uVxHwdk2FsdezJNCQnW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nus.iss.bd.coviddataproducer.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestKafkaStream">
+    <configuration name="TestKafkaStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.nus.iss.bd.TestKafkaStream" />
+      <module name="kafka_spark_streaming_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nus.iss.bd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="kafka_spark_streaming_app" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="kafka_spark_streaming_app" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoviddataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coviddata_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sg.gov.coviddata.CoviddataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoviddataProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coviddata_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nus.iss.bd.coviddataproducer.CoviddataProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestKafkaStream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d94d1cb-a118-40b4-b323-63bd364590d8" name="Default Changelist" comment="" />
+      <created>1616509742260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616509742260</updated>
+      <workItem from="1616509747702" duration="5484000" />
+      <workItem from="1616817572049" duration="1563000" />
+      <workItem from="1617119417338" duration="8544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="176" key="#Project_Structure" timestamp="1617204142535">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="440" y="176" key="#Project_Structure/0.23.1680.977@0.23.1680.977" timestamp="1617119535667" />
+    <state x="440" y="176" key="#Project_Structure/0.23.1680.978@0.23.1680.978" timestamp="1617204142535" />
+    <state x="440" y="176" key="#Project_Structure/0.23.1680.980@0.23.1680.980" timestamp="1616510935483" />
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616511082968">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.980@0.23.1680.980" timestamp="1616511082968" />
+    <state x="537" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617193152889">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="537" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.979@0.23.1680.979" timestamp="1617193152889" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom" timestamp="1617203917606">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1616817840155" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1617203917606" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1617196819813" />
+    <state width="1638" height="324" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1616586564987" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1616590184049" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center" timestamp="1617203917605">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1616817840152" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1617203917605" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1617196819810" />
+    <state width="1638" height="324" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1616590184048" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left" timestamp="1617203917605">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1616817840151" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1617203917605" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1617196819808" />
+    <state width="1638" height="324" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1616590184047" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right" timestamp="1617203917606">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1616817840153" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1617203917606" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1617196819811" />
+    <state width="1638" height="324" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1616586564986" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1616590184049" />
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom" timestamp="1617203917608">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom/0.23.1680.976@0.23.1680.976" timestamp="1616666798608" />
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom/0.23.1680.978@0.23.1680.978" timestamp="1617203917608" />
+    <state width="1638" height="324" key="GridCell.Tab.1.bottom/0.23.1680.980@0.23.1680.980" timestamp="1616586564743" />
+    <state width="1638" height="392" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1616590183815" />
+    <state width="1638" height="392" key="GridCell.Tab.1.center" timestamp="1617203917607">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.center/0.23.1680.976@0.23.1680.976" timestamp="1616666798606" />
+    <state width="1638" height="392" key="GridCell.Tab.1.center/0.23.1680.978@0.23.1680.978" timestamp="1617203917607" />
+    <state width="1638" height="324" key="GridCell.Tab.1.center/0.23.1680.980@0.23.1680.980" timestamp="1616586564742" />
+    <state width="1638" height="392" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1616590183814" />
+    <state width="1638" height="392" key="GridCell.Tab.1.left" timestamp="1617203917606">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.left/0.23.1680.976@0.23.1680.976" timestamp="1616666798605" />
+    <state width="1638" height="392" key="GridCell.Tab.1.left/0.23.1680.978@0.23.1680.978" timestamp="1617203917606" />
+    <state width="1638" height="324" key="GridCell.Tab.1.left/0.23.1680.980@0.23.1680.980" timestamp="1616586564741" />
+    <state width="1638" height="392" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1616590183814" />
+    <state width="1638" height="392" key="GridCell.Tab.1.right" timestamp="1617203917607">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.1.right/0.23.1680.976@0.23.1680.976" timestamp="1616666798607" />
+    <state width="1638" height="392" key="GridCell.Tab.1.right/0.23.1680.978@0.23.1680.978" timestamp="1617203917607" />
+    <state width="1638" height="324" key="GridCell.Tab.1.right/0.23.1680.980@0.23.1680.980" timestamp="1616586564742" />
+    <state width="1638" height="392" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1616590183815" />
+    <state width="1638" height="392" key="GridCell.Tab.2.bottom" timestamp="1617203917610">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.2.bottom/0.23.1680.978@0.23.1680.978" timestamp="1617203917610" />
+    <state width="1638" height="392" key="GridCell.Tab.2.center" timestamp="1617203917609">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.2.center/0.23.1680.978@0.23.1680.978" timestamp="1617203917609" />
+    <state width="1638" height="392" key="GridCell.Tab.2.left" timestamp="1617203917608">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.2.left/0.23.1680.978@0.23.1680.978" timestamp="1617203917608" />
+    <state width="1638" height="392" key="GridCell.Tab.2.right" timestamp="1617203917609">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.2.right/0.23.1680.978@0.23.1680.978" timestamp="1617203917609" />
+    <state x="341" y="148" key="SettingsEditor" timestamp="1617119482613">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.977@0.23.1680.977" timestamp="1617119482613" />
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.980@0.23.1680.980" timestamp="1616511024618" />
+    <state x="494" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616817571730">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="494" y="344" key="com.intellij.ide.util.TipDialog/0.23.1680.976@0.23.1680.976" timestamp="1616817571730" />
+    <state x="495" y="272" width="845" height="538" key="find.popup" timestamp="1617199034844">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="495" y="272" width="845" height="538" key="find.popup/0.23.1680.978@0.23.1680.978" timestamp="1617199034844" />
+    <state x="495" y="273" width="689" height="472" key="find.popup/0.23.1680.980@0.23.1680.980" timestamp="1616509911091" />
+    <state x="217" y="210" key="new project wizard" timestamp="1617197469177">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="217" y="210" key="new project wizard/0.23.1680.978@0.23.1680.978" timestamp="1617197469177" />
+    <state x="217" y="210" key="new project wizard/0.23.1680.979@0.23.1680.979" timestamp="1617193097764" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1617203864929">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1617203864929" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.979@0.23.1680.979" timestamp="1617194528222" />
+  </component>
+</project>
