@@ -14,7 +14,7 @@ public class CaseRecordDto {
 
     private String caseId;
     private String nric;
-    private String passType;
+    private Enums.PassType passType;
     private String nationality;
     private String race;
     private String name;
@@ -23,14 +23,15 @@ public class CaseRecordDto {
     private String sex;
     private LocalDate diagnosedDt;
     private boolean active;
-    private String activeStatus;
+    private Enums.ActiveStatus activeStatus;
     private boolean importedCase;
     private String importedFromCountry;
     private String hospitalizedHospital;
     private LocalDate admittedDt;
     private String dischargedDt;
+    private boolean deceased;
     private LocalDateTime deceasedDt;
     private LocalDateTime createdDttm;
-    private LocalDateTime lastupdatedDttm;
+    private LocalDateTime lastUpdatedDttm;
 
 }

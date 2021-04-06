@@ -42,7 +42,7 @@ public class CovidCaseProducerService {
         LOGGER.info("Pulling data from covidCaseEndpoint for datetime:{}",lastCalledDttm);
         List<CaseRecordDto> cases = covidCaseApiService.getCases(lastCalledDttm);
         cases.parallelStream().forEach(record ->{
-            LOGGER.info("Producing message for record={}",record);
+            LOGGER.info("Producing message for record:{}",record);
             covidCaseKafkaTemplate.send(covidCaseTopicName,record);
         });
     }

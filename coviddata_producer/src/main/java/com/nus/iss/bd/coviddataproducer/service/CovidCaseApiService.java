@@ -1,6 +1,8 @@
 package com.nus.iss.bd.coviddataproducer.service;
 
 import com.nus.iss.bd.coviddataproducer.dto.CaseRecordDto;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
@@ -16,6 +18,8 @@ import java.util.stream.Stream;
 @Service
 public class CovidCaseApiService {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(CovidCaseApiService.class);
+
     @Value(value = "${covidCase.endpoint}")
     private String covidCaseEndpoint;
 
@@ -28,6 +32,7 @@ public class CovidCaseApiService {
     public List<CaseRecordDto> getCases(final LocalDateTime dateTime){
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateTimeFormat);
         String url = covidCaseEndpoint + "?datetime=" + dateTime.format(formatter);
+        LOGGER.info("Calling api - {}", url);
         ResponseEntity<CaseRecordDto[]> responseEntity = restTemplate.getForEntity(url,CaseRecordDto[].class);
         CaseRecordDto[] cases = responseEntity.getBody();
         return Stream.of(cases).collect(Collectors.toList());
