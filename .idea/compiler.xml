@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BigData_Kafka" />
         <module name="coviddataproducer" />
         <module name="coviddata" />
+        <module name="coviddata_streaming_app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BigData_Kafka" target="1.8" />
       <module name="coviddata" target="1.8" />
+      <module name="coviddata_streaming_app" target="1.8" />
       <module name="coviddataproducer" target="1.8" />
     </bytecodeTargetLevel>
   </component>

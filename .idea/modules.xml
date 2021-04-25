@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kafka_spark_streaming_app/BigData_Kafka.iml" filepath="$PROJECT_DIR$/kafka_spark_streaming_app/BigData_Kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BigData_SafeEntry_Analytics_Java.iml" filepath="$PROJECT_DIR$/.idea/BigData_SafeEntry_Analytics_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/coviddata_api/coviddata.iml" filepath="$PROJECT_DIR$/coviddata_api/coviddata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coviddata_streaming_app/coviddata_streaming_app.iml" filepath="$PROJECT_DIR$/coviddata_streaming_app/coviddata_streaming_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/coviddata_producer/coviddataproducer.iml" filepath="$PROJECT_DIR$/coviddata_producer/coviddataproducer.iml" />
     </modules>
   </component>
